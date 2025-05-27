@@ -1,0 +1,78 @@
+header {
+    position: relative;
+    padding: 80px 20px 40px;
+    background-color: #000000;
+  }
+  
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .side-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    filter: grayscale(100%);
+  }
+  
+  
+  .name-content {
+    flex: 1 1 500px;
+    padding-right: 20px;
+  }
+  
+  .name-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #007BFF; /* You can change to your brand color */
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .image-content {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  
+  .side-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .scroll-indicator {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .scroll-indicator svg {
+    width: 24px;
+    height: 24px;
+    fill: #555;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+  
