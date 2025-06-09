@@ -1,5 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pehan Rathnayake - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">Pehan Rathnayake</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Experience">About</a></li>
+                <li><a href="#Education">Projects</a></li>
+                <li><a href="#projects">Skills</a></li>
+                <li><a href="#achievements">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 3D Canvas -->
+    <canvas id="three-canvas"></canvas>
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero">
+        <div class="container">
+            <h1 class="hero-title">Pehan Rathnayake</h1>
+            <p class="subtitle">B.Sc Computer Science | Software Engineer</p>
+            <p class="description">
+                I am an aspiring software engineer with a strong foundation in coding, problem solving, and teamwork.
+                I quickly adapt to new technologies and thrive in dynamic environments. My goal is to secure a role
+                where I can contribute to a forward-thinking company while growing professionally and delivering
+                impactful software solutions.
+            </p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+        <div style="flex: 1; min-width: 300px; padding: 20px; text-align: center;">
+    <img src="profile_pic.jpg" alt="Pehan Rathnayake"
+         style="max-width: 100%; border-radius: 10px; filter: grayscale(50%);">
+</div>
+
+
+    </section>
+    <section id="Experience" class="section">
+        <div class="container content-section">
+            <h2 class="section-title"> Experience</h2>
+            <div class="grid grid-2"></div>
+            <div class="card">
+                <h3>Spil Labs - Intern Software Engineer</h3>
+                <p class="period">Recent Experience</p>
+                <p>I completed my internship as a Software Engineering Intern at Spil Labs, a product-based tech
+                    company specializing in ERP solutions for the glass industry. During my internship, I gained
+                    hands-on
+                    experience in mobile and web application development, contributing to real-world projects that
+                    enhanced
+                    the operational workflow of glaziers and delivery teams. I worked closely with senior developers to
+                    build
+                    scalable and user-friendly applications using Flutter, React, .NET Core, and SQL Server within a
+                    microservices
+                    architecture. This internship significantly strengthened my technical skills and deepened
+                    my understanding of full-stack development in a real-world enterprise environment.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="Education" class="section">
+        <div class="container content-section">
+            <h2 class="section-title">Education </h2>
+
+            <div class="grid grid-2">
+                <a href="https://ucsc.cmb.ac.lk/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="card">
+                        <h3>University of Colombo School of Computing</h3>
+                        <p class="period">2021 - Present</p>
+                        <p>Bachelor of Science in Computer Science</p>
+                        <p>Currently pursuing undergraduate degree with focus on software engineering and computer
+                            science
+                            fundamentals.</p>
+                    </div>
+                </a>
+
+
+
+                <a href="https://rahulacollege.lk/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="card">
+                        <h3>Rahula College, Matara</h3>
+                        <p class="period">2011 - 2020</p>
+                        <p><strong>GCE Advanced Level (2020):</strong></p>
+                        <p>Combined Mathematics - A</p>
+                        <p>Physics - A</p>
+                        <p>Chemistry - B</p>
+                        <p><strong>GCE Ordinary Level (2016):</strong></p>
+                        <p> 9 A / 1 C</p>
+                    </div>
+
+                </a>
+
+                <a href="https://ijse.lk/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="card">
+                        <h3>Institute of Software Engineering (IJSE)</h3>
+                        <p class="period">2020 - 2021</p>
+                        <p>Computer Programming Course - Panadura</p>
+                        <p>Completed comprehensive programming course covering fundamental programming concepts and
+                            practices.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container content-section">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="grid grid-2">
+                <div class="card project-card">
+                    <h3>Glazier Mobile Application</h3>
+                    <p>Built and published two Flutter-based mobile apps to streamline glazier task management and
+                        delivery operations in the glass industry. One app displays and organizes glaziers' daily jobs,
+                        while the other enables barcode-based validation for loading and unloading items.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">.NET Core</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <h3>Spring Boot Microservices Project</h3>
+                    <p>Developed a microservices-based backend using Spring Boot, with Keycloak for centralized
+                        authentication. Containerized services using Docker and enabled asynchronous communication with
+                        Kafka. Implemented Circuit Breaker patterns using Resilience4j.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">Keycloak</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Kafka</span>
+                        <span class="tech-tag">Resilience4j</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <h3>TryOn_Fit</h3>
+                    <p>TryOnFit is an online platform for virtually trying on clothes, offering an interactive shopping
+                        experience. Built with TypeScript and Next.js, it ensures scalability and modern functionality.
+                        Currently in development as part of a third-year academic requirement.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">Drizzle ORM</span>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <h3>Rail Boost</h3>
+                    <p>RailBoost is a rail management system developed to optimize railway operations, including parcel
+                        booking, ticketing, and passenger management. Created as a second-year academic project with a
+                        Java-based back-end and responsive front-end.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container content-section">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Programming Languages</h4>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>C / C++ / C#</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>Scala</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Frameworks</h4>
+                    <ul class="skill-list">
+                        <li>Next.js</li>
+                        <li>Flutter</li>
+                        <li>React JS</li>
+                        <li>Spring Boot</li>
+                        <li>.NET</li>
+                        <li>Node / Express</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Databases</h4>
+                    <ul class="skill-list">
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Development Tools</h4>
+                    <ul class="skill-list">
+                        <li>IntelliJ IDEA</li>
+                        <li>VS Code</li>
+                        <li>Unity</li>
+                        <li>GitHub</li>
+                        <li>GitLab</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Soft Skills</h4>
+                    <ul class="skill-list">
+                        <li>Teamwork</li>
+                        <li>Team Management</li>
+                        <li>Creative Thinking</li>
+                        <li>Problem Solving</li>
+                        <li>Work with Challenges</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Interests</h4>
+                    <ul class="skill-list">
+                        <li>Travelling</li>
+                        <li>Hiking & Camping</li>
+                        <li>Cricket</li>
+                        <li>Music</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container content-section">
+            <h2 class="section-title">Achievements</h2>
+
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>FreshHack - UCSC</h3>
+                    <p>Finalist team in FreshHack 2022, a coding hackathon by the ISACA student group at UCSC.
+                        Demonstrated exceptional problem-solving skills and teamwork in competitive programming
+                        environment.</p>
+                </div>
+
+                <div class="card">
+                    <h3>OpenHack 2.0</h3>
+                    <p>Participated in a coding hackathon organized by ISACA student group UCSC. Showcased technical
+                        skills and collaborative development capabilities.</p>
+                </div>
+
+                <div class="card">
+                    <h3>AWS Educate Introduction to Cloud 101</h3>
+                    <p>Completed AWS certification course, gaining foundational knowledge in cloud computing and Amazon
+                        Web Services infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container content-section">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>Phone</h4>
+                    <p>070 1310841</p>
+                </div>
+
+                <div class="contact-item">
+                    <h4>Email</h4>
+                    <p>pehanrathnayake159@gmail.com</p>
+                </div>
+
+                <div class="contact-item">
+                    <h4>LinkedIn</h4>
+                    <p>pehan_rathnayake</p>
+                </div>
+
+                <div class="contact-item">
+                    <h4>GitHub</h4>
+                    <p>pehan_rathnayake</p>
+                </div>
+            </div>
+
+            <div class="references" style="margin-top: 3rem;">
+                <h3 style="color: #ffffff; margin-bottom: 2rem; text-align: center;">References</h3>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4>Pasindu Amarasena</h4>
+                        <p><strong>Software Engineer</strong></p>
+                        <p>Kenanga Investment Bank, Malaysia</p>
+                        <p>Phone: (070) 217 9408</p>
+                        <p>Email: pasindutharushika@gmail.com</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Dr. K. D. Sandaruwan</h4>
+                        <p><strong>B.Sc. (Col), Ph.D. (Col)</strong></p>
+                        <p>Lecturer - UCSC, University of Colombo</p>
+                        <p>Email: dsr@ucsc.cmb.ac.lk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1201,4 +1549,4 @@
         };
     </script>
 </body>
-</html>
+</html> -->
